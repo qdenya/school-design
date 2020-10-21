@@ -1,0 +1,118 @@
+*
+  box-sizing: border-box
+
+.header
+  z-index: 99
+  height: 700px
+  overflow: hidden
+  background-color: #000
+  position: relative
+  &_logo
+    margin-top: 10px
+  &_text
+    margin-top: 148px
+    font-family: "Jura", sans-serif
+    font-style: normal
+    font-weight: normal
+    font-size: 48px
+    line-height: 57px
+    color: #ffffff
+  &_nav
+    margin-left: auto
+    margin-right: 0
+    margin-top: 25px
+  &_wrapper
+    display: flex
+    max-width: 1415px
+    width: 95%
+    margin: auto
+    border: 1px solid #000
+    &_main
+      display: flex
+      align-items: flex-start
+      flex-direction: column
+      max-width: 1415px
+      width: 95%
+      height: 100%
+      margin: auto
+      border: 1px solid #000
+      background: url(../img/main-sokrat.png) right -30px top  10px /920px no-repeat
+  &_menu
+    display: flex
+    margin: 0
+    list-style: none
+    justify-content: center
+    align-items: center
+    &_link
+      text-decoration: none
+      font-family: "Montserrat", sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 15px
+      line-height: 18px
+      color: #ffffff
+    &_item:not(:first-child)
+      margin-left: 38px
+  &_title
+
+.send-mess
+  margin-top: 60px
+  margin-bottom: 100px
+  &_transparent
+    margin: 0
+
+.pomehi
+  position: absolute
+  z-index: 0
+.po
+  left: -10px
+
+.ptr
+  right: 190px
+
+.pt
+  bottom: 20px
+
+.about
+  height: 820px
+  display: flex
+  justify-content: space-around
+  &_text
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    justify-content: center
+    padding-left: 300px
+    padding-right: 100px
+    &_description
+      font-family: Rubik
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 24px
+      color: #1F1E32
+      margin-bottom: 45px
+    &_us
+      font-family: Montserrat
+      font-style: normal
+      font-weight: bold
+      font-size: 48px
+      line-height: 59px
+      color: #1F1E32
+      &:after
+        content: ""
+        width: 77px
+        height: 2px
+        background-color: #0000ED
+        display: flex
+
+        vertical-align: middle
+        margin-top: 39px
+        margin-bottom: 54px
+  &_imgs
+    &_first
+      top: 350px
+      position: relative
+
+    &_last
+      position: absolute

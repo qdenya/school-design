@@ -1,0 +1,183 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  z-index: 99;
+  height: 700px;
+  overflow: hidden;
+  background-color: #000;
+  position: relative;
+}
+
+.header_logo {
+  margin-top: 10px;
+}
+
+.header_text {
+  margin-top: 148px;
+  font-family: "Jura", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 57px;
+  color: #ffffff;
+}
+
+.header_nav {
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 25px;
+}
+
+.header_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1415px;
+  width: 95%;
+  margin: auto;
+  border: 1px solid #000;
+}
+
+.header_wrapper_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1415px;
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  border: 1px solid #000;
+  background: url(../img/main-sokrat.png) right -30px top 10px/920px no-repeat;
+}
+
+.header_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_menu_link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.header_menu_item:not(:first-child) {
+  margin-left: 38px;
+}
+
+.send-mess {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.send-mess_transparent {
+  margin: 0;
+}
+
+.pomehi {
+  position: absolute;
+  z-index: 0;
+}
+
+.po {
+  left: -10px;
+}
+
+.ptr {
+  right: 190px;
+}
+
+.pt {
+  bottom: 20px;
+}
+
+.about {
+  height: 820px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 300px;
+  padding-right: 100px;
+}
+
+.about_text_description {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1F1E32;
+  margin-bottom: 45px;
+}
+
+.about_text_us {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #1F1E32;
+}
+
+.about_text_us:after {
+  content: "";
+  width: 77px;
+  height: 2px;
+  background-color: #0000ED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  margin-top: 39px;
+  margin-bottom: 54px;
+}
+
+.about_imgs_first {
+  top: 350px;
+  position: relative;
+}
+
+.about_imgs_last {
+  position: absolute;
+}
